@@ -6,11 +6,11 @@ import SearchBar from './components/SearchBar';
 
 const App = () => {
   const [transactions, setTransactions] = useState([
-    { id: 1, amount: 100, description: 'Salary', category: 'Income',date: '2021-10-01' },
-    { id: 2, amount: 50, description: 'Grocery', category: 'Expense',date: '2021-10-05' },
-    { id: 3, amount: 20, description: 'Rent',category: 'Expense', date: '2021-10-10' },
-    { id: 4, amount: 200, description: 'Mortgage', category: 'Income',date: '2021-10-01' },
-    { id: 5, amount: 250, description: 'Movie', category: 'Expense',date: '2021-10-05' },
+    { id: 1, amount: 100, description: 'Salary', category: 'Income',date: '2020-9-01' },
+    { id: 2, amount: 50, description: 'Grocery', category: 'Expense',date: '2021-11-05' },
+    { id: 3, amount: 20, description: 'Rent',category: 'Expense', date: '2022-12-10' },
+    { id: 4, amount: 200, description: 'Mortgage', category: 'Income',date: '2018-8-11' },
+    { id: 5, amount: 250, description: 'Movie', category: 'Expense',date: '2017-9-14' },
     { id: 6, amount: 240, description: 'Tuition',category: 'Expense', date: '2021-10-10' },
     { id: 7, amount: 300, description: 'Dinner', category: 'Income',date: '2021-10-01' },
     { id: 8, amount: 50, description: 'Kitchen', category: 'Expense',date: '2021-10-05' },
